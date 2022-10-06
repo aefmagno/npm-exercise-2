@@ -10,7 +10,7 @@ const vowel = ['a', 'e' ,'i' ,'o' ,'u'];
 
 let vowelCount = 0;
 
-for (const element of argString){
+for (const element of argString) {
     if (vowel.includes(element.toLowerCase())) {
         vowelCount++;
     }
