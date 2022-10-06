@@ -6,7 +6,7 @@ const [a, b, ...c] = argv;
 
 const argString = c.join(' ');
 
-const vowel = ['a', 'e' ,'i' ,'o' ,'u'];
+const vowels = ['a', 'e' ,'i' ,'o' ,'u'];
 
 let vowelCount = 0;
 
